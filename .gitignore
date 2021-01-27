@@ -1,0 +1,15 @@
+# My files to be deleted
+~*
+*~
+# My workdir contains temporary files
+*!work
+
+*.log
+*.min.css
+*.min.js
+
+# Don't store files with environment variables,
+# they may contain sensitive data
+*.env
+
+/vendor/
