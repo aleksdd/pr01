@@ -1,0 +1,21 @@
+{
+    "name": "aleksdd/pr01",
+    "description": "pr01",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pr01\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pr01\\Test\\": "test/"
+        }
+    }
+}
