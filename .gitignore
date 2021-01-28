@@ -4,6 +4,9 @@
 # My workdir contains temporary files
 *!work
 
+# Temporary or secondary files
+*.cache
+*.bak
 *.log
 *.min.css
 *.min.js
