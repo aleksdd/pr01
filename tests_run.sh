@@ -1,4 +1,10 @@
 #!/bin/bash
-php -v
-composer --version
-phpunit --version
+ls -la
+
+echo $WORKSPACE
+
+ls -la $WORKSPACE
+
+composer install
+
+phpunit
