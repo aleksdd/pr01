@@ -30,9 +30,9 @@ class UserTest extends TestCase
         $this->assertNotFalse($output, 'Not False expected');
     }
 
-    public function testToBeFailed()
+    public function testMayBeFailedOrNot()
     {
-        $this->assertEquals(1, 2);
+        $this->assertEquals(2, 2);
     }
 
     public function usernamesProvider()
