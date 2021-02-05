@@ -25,11 +25,14 @@ class UserTest extends TestCase
     public function testGetName($value, $expected)
     {
         $output = $this->User->getName($value);
-        var_dump($output);
-        echo gettype($output).PHP_EOL;
         $this->assertIsString($output, 'String expected');
         $this->assertLessThan(20, strlen($output), 'Output length too big');
         $this->assertNotFalse($output, 'Not False expected');
+    }
+
+    public function testToBeFailed()
+    {
+        $this->assertEquals(1, 2);
     }
 
     public function usernamesProvider()
